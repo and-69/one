@@ -1,0 +1,116 @@
+body {
+  background-color: #f4f4f9; 
+  font-family: 'Arial', sans-serif; 
+  color: #333; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  height: 100vh; 
+  text-align: center; 
+  background-image: url(https://image.slidesdocs.com/responsive-images/background/coffee-coffee-bean-plant-illustration-poster-powerpoint-background_110e85bd5a__960_540.jpg);
+  background-size: cover;  
+  background-position: center;  
+  background-attachment: fixed;  
+}
+
+
+
+h1 {
+  color: #07533b; 
+  font-size: 7em;
+  margin-top: 30px;
+  font-family:'Times New Roman';
+
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  width: 100%;
+  padding: 20px;
+}
+.section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #c9c2de; 
+  max-width: 800px; 
+  max-width: 350px; 
+  width: 100%; 
+  text-align: center; 
+}
+
+.section h2 {
+  color: #000000; 
+  font-size: 2em;
+  font-family: Verdana;
+}
+
+.section p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  font-family: Cambria;
+}
+
+
+.btn {
+  display: inline-block;
+  background-color: #ff004c; 
+  color: white; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+  margin-top: 0px;
+  font-family:serif;
+}
+
+.btn:hover {
+  background-color: #0056b3; 
+}
+
+
+#user-list {
+  list-style-type: none; 
+  padding: 0;
+}
+
+#user-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd; 
+  font-size: 1.2em;
+}
+
+
+#clear-users {
+  background-color: #a600ff; 
+  color: white;
+}
+
+#clear-users:hover {
+  background-color: #a600ff; 
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-family: Geneva;
+}
+
+ul li strong {
+  color: #007bff; 
+}

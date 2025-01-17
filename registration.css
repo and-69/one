@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://e0.pxfuel.com/wallpapers/350/614/desktop-wallpaper-cafe-background-vintage-coffee.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 2px solid #3b3b4f;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 3;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 1px solid #0a0a23;
+  color: #000000;
+  padding: 0em; /* Agregado padding para que el texto no esté pegado al borde */
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+  color: #fff; /* Color del texto en el botón */
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline {
+  display: inline;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="home.css" />
+  
+</head>
+<body>
+  <h1>Welcome to Our System</h1>
+  <div class="main-content">
+  <div class="section">
+    <h2>User Registration</h2>
+    <p>kaakkaakak</p>
+    <a href="registration.html" class="btn">Go to registration form</a>
+  </div>
+  
+  <div class="section">
+    <h2>List of Registered Users</h2>
+    <ul id="user-list">
+    </ul>
+    <button id="clear-users" class="btn">Clear Users List</button>
+  </div>
+<script>
+  document.getElementById("clear-users").addEventListener("click", function() {
+    localStorage.removeItem("users");
+    alert("User list has been cleared!");
+    location.reload(); 
+  });
+</script>
+  <script>
+    function renderUserList() {
+      const userListElement = document.getElementById('user-list');
+      userListElement.innerHTML = ''; 
+      const users = JSON.parse(localStorage.getItem('users')) || [];
+      users.forEach(user => {
+        const listItem = document.createElement('li');
+        listItem.textContent = user.fullName; 
+        userListElement.appendChild(listItem);
+      });
+    }
+    window.onload = renderUserList;
+  </script>
+
+  <div class="section">
+    <h2>Coffee Express Menus</h2>
+    <p>Traditional menu</p>
+    <a href="menu.html" class="btn">Menu</a>
+    <p>Drinks Menu +18</p>
+    <a href="menu+18.html" class="btn">M. +18</a>
+  </div>
+
+  <div class="section">
+    <h2>End Process</h2>
+    <p>Click the button below to finish the process.</p>
+    <a href="finalize.html" class="btn">Finish</a>
+  </div>
+</div>
+</body>
+</html>

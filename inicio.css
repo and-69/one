@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/016/341/324/non_2x/deep-dark-violet-neon-lights-watercolor-on-black-background-dark-purple-grungy-background-dark-purple-marble-texture-background-old-purple-paper-background-purple-stained-grungy-background-free-vector.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(82, 1, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255, 247, 247);
+}
+
+h1 {
+    color: #ffffff;
+    font-family:'Times New Roman';
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #006446;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+    font-family: serif;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
